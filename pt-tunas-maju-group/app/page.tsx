@@ -4,7 +4,7 @@
 import Header from './components/Header';
 import Banner from './components/Banner';
 import CompanyProfile from './components/CompanyProfile';
-import OurHistory from './components/OurHistory';
+// Remove OurHistory import
 import OurProducts from './components/OurProducts';
 import Coverage from './components/Coverage';
 import OurFacility from './components/OurFacility';
@@ -37,9 +37,6 @@ export default function Home() {
       <Spacer />
       <Spacer />
       <Spacer />
-      <Element name="history">
-        <OurHistory />
-      </Element>
       <WaveBottom />
       <Element name="facility">
         <OurFacility />

@@ -1,7 +1,8 @@
-// app/components/OurProducts.tsx
+// src/app/components/OurProducts.tsx
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 const OurProducts = () => {
   const products = [
@@ -22,6 +23,11 @@ const OurProducts = () => {
             <span className="mt-4">{product.name}</span>
           </div>
         ))}
+      </div>
+      <div className="flex justify-center mt-8">
+        <Link href="/products/catalog" legacyBehavior>
+          <a className="bg-blue-500 text-white px-4 py-2 rounded">Show More</a>
+        </Link>
       </div>
     </div>
   );

@@ -78,18 +78,6 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="history"
-                smooth={true}
-                duration={500}
-                offset={-390}
-                onClick={() => handleSetActive('history')}
-                className={`cursor-pointer link ${activeLink === 'history' ? 'active' : ''}`}
-              >
-                History
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="facility"
                 smooth={true}
                 duration={500}
